@@ -76,8 +76,22 @@ Then, from the project's top-level directory, run Rubocop with the following com
 rubocop
 ```
 
+Additionally, if you want to validate the documentation (README.md) use [MarkdownLint][markdownlint].
+To do that, first install it by running the following command:
+
+```bash
+npm install markdownlint --save-dev
+```
+
+Then, run the following command to validate the documentation with MarkdownLint:
+
+```bash
+markdownlint-cli2 README.md
+```
+
 [active_numbers]: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
 [e164_format]: https://www.twilio.com/docs/glossary/what-e164
+[markdownlint]: https://github.com/davidanson/markdownlint
 [ngrok]: https://ngrok.com/
 [rubocop]: https://docs.rubocop.org/rubocop/latest/
 [sinatra]: https://sinatrarb.com
