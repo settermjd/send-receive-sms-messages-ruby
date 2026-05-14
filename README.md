@@ -2,8 +2,6 @@
 
 # Send &amp; receive SMS messages with Ruby
 
-Send &amp; receive SMS messages with Twilio and Ruby
-
 Learn how to send and receive SMS with Twilio and Ruby with this repository.
 In just a few lines of code, you can see your phone light up sending and receiving SMS with Twilio and Ruby.
 
