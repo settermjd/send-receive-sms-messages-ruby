@@ -15,7 +15,7 @@ To run the app locally, you need the following:
 - An [ngrok][ngrok] account
 - A [Twilio account][twilio_signup] with an active phone number that can send SMS
 
-## Quickstart
+## Quick Start
 
 1. Clone or download this repository.
 1. Install the dependencies:
@@ -61,9 +61,25 @@ Before you can receive an SMS, you need to complete a few further steps.
 1. With the Ruby/Sinatra application and ngrok running, send an SMS to your Twilio phone number, containing whatever message you like.
    If you want a response, try sending "never gonna" as the message, and see what response you receive.
 
+## Testing
+
+While the code does not have any tests, yet, you can use the [Rubocop][rubocop] configuration to perform static analysis on the code base.
+To do that, install Rubocop by running the following command:
+
+```bash
+gem install rubocop
+```
+
+Then, from the project's top-level directory, run Rubocop with the following command:
+
+```bash
+rubocop
+```
+
 [active_numbers]: https://console.twilio.com/us1/develop/phone-numbers/manage/incoming
 [e164_format]: https://www.twilio.com/docs/glossary/what-e164
 [ngrok]: https://ngrok.com/
+[rubocop]: https://docs.rubocop.org/rubocop/latest/
 [sinatra]: https://sinatrarb.com
 [twilio_console]: https://console.twilio.com
 [twilio_signup]: https://www.twilio.com/try-twilio
