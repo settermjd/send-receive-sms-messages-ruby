@@ -21,7 +21,7 @@ To run the app locally, you need the following:
 1. Install the dependencies:
 1. Rename the _.env.example_ file to _.env_
 1. Go to the [Twilio Console][twilio_console] and find your **Account SID**, **Auth Token**, and Twilio phone number.
-1. Copy and paste those values into the placeholders in the _.env_ file `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, and `SENDER`, respectively.
+1. Copy and paste those values into the placeholders in the _.env_ file `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, and `TWILIO_PHONE_NUMBER`, respectively.
 1. Set your phone number, in [E.164 format][e164_format] as the value of `RECIPIENT` in _.env_
    Save the file.
 
